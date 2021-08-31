@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Consultar CEP</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <div class="input-cep">
+                <input type="text" maxlength="9" class="CEP" placeholder="CEP" onkeypress="mascara(this, telefone)" onblur="mascara(this, telefone)">
+                <label for="CEP">CEP</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="input-addres">
+                <input type="text" class="address" placeholder="Endereço">
+                <label for="address">Endereço</label>
+            </div>
+            <div class="input-dd">
+                <input type="number" class="ddd" placeholder="Número">
+                <label for="ddd">DDD</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="input-district">
+                <input type="text" class="district" placeholder="Bairro">
+                <label for="district">Bairro</label>
+            </div>
+            <div class="input-city">
+                <input type="text" class="city" placeholder="Cidade">
+                <label for="city">Cidade</label>
+            </div>
+            <div class="iput-state">
+                <input type="text" class="state" placeholder="Estado">
+                <label for="state">Estado</label>
+            </div>
+        </fieldset>
+        <a href="#">Consultar CEP</a>
+    </form>
+    <script src="public/scripts/script.js"></script>
+</body>
+
+</html>
